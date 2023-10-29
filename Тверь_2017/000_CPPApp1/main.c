@@ -2,16 +2,20 @@
 #include <locale.h>
 int main(){
 	setlocale(LC_ALL, "Russian");
-	const double pi = 3.14;
-	double V, r, h;
-	printf("Введите значения r и h через пробел: ");
-	scanf("%lg %lg", &r, &h);
-	V = pi * r * r * h;
-	printf("Объем бассейна равен %lg\n", V);
+	int a=7, b=2, res = 0;
+	res = a+b; printf("%d + %d = %d\n",a,b,res);
+	res = a-b; printf("%d - %d = %d\n",a,b,res);
+	res = a*b; printf("%d * %d = %d\n",a,b,res);
+	res = a/b; printf("%d / %d = %d\n",a,b,res);
+	res = a%b; printf("%d %% %d = %d\n",a,b,res);
+	res=getchar();
 	return 0;
 }
 /*
-Введите значения r и h через пробел: 4 3
-Объем бассейна равен 150,72
-Для продолжения нажмите любую клавишу . . .
+7 + 2 = 9
+7 - 2 = 5
+7 * 2 = 14
+7 / 2 = 3
+7 % 2 = 1
+Что то такм про нажатие клавиши....
 */
