@@ -14580,8 +14580,34 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="%D0%98-%D0%A2%D0%B0%D0%BA">&#1048; &#1058;&#1072;&#1082;<a class="anchor-link" href="#%D0%98-%D0%A2%D0%B0%D0%BA">&#182;</a></h1><p>В дальнейшем будем хранить программные коды в виде таких лекций.</p>
+<h1 id="%D0%9D%D0%B8%D0%B7%D0%BA%D0%B8%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82">&#1053;&#1080;&#1079;&#1082;&#1080;&#1081; &#1089;&#1090;&#1072;&#1088;&#1090;<a class="anchor-link" href="#%D0%9D%D0%B8%D0%B7%D0%BA%D0%B8%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><a style="display:inline-block;" href="https://htmlpreview.github.io/?https://github.com/IvanSibirevV2/HowTo_CPP/blob/main/Тверь_2017/001_НизкийСтарт.html#/source" target="_blank">
+    <img src="https://digitalprofy.ru/wp-content/uploads/2023/03/html-scaled.jpeg" width="100" height="100"/></a>
+<a style="display:inline-block;" href="https://github.com/IvanSibirevV2/HowTo_CPP" target="_blank">
+    <img src="https://avatars.dzeninfra.ru/get-zen_doc/3342202/pub_617c549bf7b11960ad42e0af_617c54e3b021ae7a4e527861/scale_1200" width="100" height="100"/></a></p>
 
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
+<h1 id="Config">Config<a class="anchor-link" href="#Config">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14590,30 +14616,97 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#include &lt;stdio.h&gt;</span>
-
-<span class="nb">int</span> <span class="n">main</span><span class="p">(</span><span class="nb">int</span> <span class="n">argc</span><span class="p">,</span> <span class="n">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"Hello C-Free!</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
-	<span class="nb">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"a = </span><span class="si">%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">a</span><span class="p">);</span>
-	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="o">//</span>\<span class="n">n</span> <span class="o">-</span> <span class="n">спец</span> <span class="n">символ</span> <span class="n">перехода</span> <span class="n">на</span> <span class="n">новую</span> <span class="n">строку</span>
-<span class="o">//</span><span class="n">Результат</span>
-<span class="o">/*</span>
-<span class="n">Hello</span> <span class="n">C</span><span class="o">-</span><span class="n">Free</span><span class="err">!</span>
-<span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">Для</span> <span class="n">продолжения</span> <span class="n">нажмите</span> <span class="n">любую</span> <span class="n">клавишу</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
-<span class="o">*/</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.magic</span> <span class="kn">import</span> <span class="p">(</span><span class="n">register_line_magic</span><span class="p">,</span><span class="n">register_cell_magic</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">Debag_Lang_Cpp</span><span class="p">(</span><span class="n">code</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'main.c'</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span><span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">code</span><span class="p">)</span>
+    <span class="o">!</span><span class="s2">"C:\Program Files (x86)\C-Free 5\mingw\bin\\c++.exe"</span><span class="w"> </span>main.c<span class="w"> </span>-o<span class="w"> </span>Start.exe
+    <span class="o">!</span>Start.exe
+<span class="nd">@register_line_magic</span>
+<span class="k">def</span> <span class="nf">lDebag_Lang_Cpp</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
+    <span class="n">Debag_Lang_Cpp</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+<span class="nd">@register_cell_magic</span>
+<span class="k">def</span> <span class="nf">cDebag_Lang_Cpp</span><span class="p">(</span><span class="n">line</span><span class="p">,</span><span class="n">cell</span><span class="p">):</span>
+    <span class="n">Debag_Lang_Cpp</span><span class="p">(</span><span class="n">cell</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="%D0%98-%D0%A2%D0%B0%D0%BA">&#1048; &#1058;&#1072;&#1082;<a class="anchor-link" href="#%D0%98-%D0%A2%D0%B0%D0%BA">&#182;</a></h1><p>В дальнейшем будем хранить программные коды в виде таких лекций.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">cDebag_Lang_Cpp</span>
+#include &lt;stdio.h&gt;
+int main(int argc, char *argv[])
+{
+	printf("Hello C-Free!\n");//\n - спец символ перехода на новую строку
+	int a = 2;
+	printf("a = %d\n", a);
+	return 0;
+}
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Hello C-Free!
+a = 2
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14629,33 +14722,53 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#include &lt;stdio.h&gt;</span>
-<span class="c1">#include &lt;locale.h&gt;</span>
-<span class="nb">int</span> <span class="n">main</span><span class="p">(</span><span class="nb">int</span> <span class="n">argc</span><span class="p">,</span> <span class="n">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-	<span class="n">setlocale</span><span class="p">(</span><span class="n">LC_ALL</span><span class="p">,</span> <span class="s2">"Russian"</span><span class="p">);</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"HelloWorld</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>	
- 	<span class="n">printf</span><span class="p">(</span><span class="s2">"Русский текст</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
-	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="o">/*</span>
-<span class="n">HelloWorld</span>
-<span class="n">Русский</span> <span class="n">текст</span>
-<span class="n">Для</span> <span class="n">продолжения</span> <span class="n">нажмите</span> <span class="n">любую</span> <span class="n">клавишу</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
-<span class="o">*/</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">cDebag_Lang_Cpp</span>
+#include &lt;stdio.h&gt;
+#include &lt;locale.h&gt;
+int main(int argc, char *argv[])
+{
+	setlocale(LC_ALL, "Russian");
+	printf("HelloWorld\n");	
+ 	printf("Русский текст\n");
+	return 0;
+}
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>HelloWorld
+Русский текст
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14738,39 +14851,59 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#include &lt;stdio.h&gt;</span>
-<span class="c1">#include &lt;locale.h&gt;</span>
-<span class="nb">int</span> <span class="n">main</span><span class="p">(</span><span class="nb">int</span> <span class="n">argc</span><span class="p">,</span> <span class="n">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-	<span class="n">setlocale</span><span class="p">(</span><span class="n">LC_ALL</span><span class="p">,</span> <span class="s2">"Russian"</span><span class="p">);</span>
-	<span class="nb">int</span> <span class="n">value</span><span class="p">;</span>
-	<span class="n">value</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span><span class="o">//</span><span class="n">Задать</span> <span class="n">десятичное</span> <span class="n">число</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"value= </span><span class="si">%d</span><span class="s2"> </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>
-	<span class="n">value</span><span class="o">=</span><span class="mi">0010</span><span class="p">;</span><span class="o">//</span><span class="n">Задать</span> <span class="n">восьмеричное</span> <span class="n">число</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"value= </span><span class="si">%d</span><span class="s2"> ; </span><span class="si">%o</span><span class="s2"> </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>
-	<span class="n">value</span><span class="o">=</span><span class="mh">0x10</span><span class="p">;</span><span class="o">//</span><span class="n">Задать</span> <span class="n">шестнадцатеричное</span> <span class="n">число</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"value= </span><span class="si">%d</span><span class="s2"> ; </span><span class="si">%x</span><span class="s2"> </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>
-	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="o">/*</span>
-<span class="n">value</span><span class="o">=</span> <span class="mi">10</span>
-<span class="n">value</span><span class="o">=</span> <span class="mi">8</span> <span class="p">;</span> <span class="mi">10</span>
-<span class="n">value</span><span class="o">=</span> <span class="mi">16</span> <span class="p">;</span> <span class="mi">10</span>
-<span class="n">Для</span> <span class="n">продолжения</span> <span class="n">нажмите</span> <span class="n">любую</span> <span class="n">клавишу</span> <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
-<span class="o">*/</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">cDebag_Lang_Cpp</span>
+#include &lt;stdio.h&gt;
+#include &lt;locale.h&gt;
+int main(int argc, char *argv[])
+{
+	setlocale(LC_ALL, "Russian");
+	int value;
+	value=10;//Задать десятичное число
+	printf("value= %d \n", value);
+	value=0010;//Задать восьмеричное число
+	printf("value= %d ; %o \n", value, value);
+	value=0x10;//Задать шестнадцатеричное число
+	printf("value= %d ; %x \n", value, value);
+	return 0;
+}
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>value= 10 
+value= 8 ; 10 
+value= 16 ; 10 
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14788,43 +14921,64 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#include &lt;stdio.h&gt;</span>
-<span class="c1">#include &lt;locale.h&gt;</span>
-<span class="nb">int</span> <span class="n">main</span><span class="p">(</span><span class="nb">int</span> <span class="n">argc</span><span class="p">,</span> <span class="n">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"1. просто строка </span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
-	<span class="nb">int</span> <span class="n">_value_int</span><span class="o">=</span><span class="mi">1234</span><span class="p">;</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"2. целое число: </span><span class="si">%d</span><span class="s2"> </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">_value_int</span><span class="p">);</span>
-	<span class="nb">float</span> <span class="n">_value_float</span><span class="o">=</span><span class="mf">12.34</span><span class="p">;</span><span class="o">//</span><span class="n">double</span> <span class="o">-</span> <span class="o">?</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"3. дробное число: </span><span class="si">%f</span><span class="s2"> </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">_value_float</span><span class="p">);</span>
-	<span class="n">char</span> <span class="n">_value_char</span><span class="o">=</span><span class="s1">'C'</span><span class="p">;</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"4. Символ: </span><span class="si">%c</span><span class="s2">  </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">_value_char</span><span class="p">);</span>
-	<span class="n">char</span> <span class="n">_value_char_array</span><span class="p">[]</span><span class="o">=</span><span class="s2">"C++"</span><span class="p">;</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"5. строка: </span><span class="si">%s</span><span class="s2"> </span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">_value_char_array</span><span class="p">);</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"6. процент: 100</span><span class="si">%%</span><span class="s2"> </span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
-	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="o">/*</span>
-<span class="mf">1.</span> <span class="n">просто</span> <span class="n">строка</span> 
-<span class="mf">2.</span> <span class="n">целое</span> <span class="n">число</span><span class="p">:</span> <span class="mi">1234</span> 
-<span class="mf">3.</span> <span class="n">дробное</span> <span class="n">число</span><span class="p">:</span> <span class="mf">12.340000</span> 
-<span class="mf">4.</span> <span class="n">Символ</span><span class="p">:</span> <span class="n">C</span>  
-<span class="mf">5.</span> <span class="n">строка</span><span class="p">:</span> <span class="n">C</span><span class="o">++</span> 
-<span class="mf">6.</span> <span class="n">процент</span><span class="p">:</span> <span class="mi">100</span><span class="o">%</span>
-<span class="o">*/</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">cDebag_Lang_Cpp</span>
+#include &lt;stdio.h&gt;
+#include &lt;locale.h&gt;
+int main(int argc, char *argv[])
+{
+	printf("1. просто строка \n");
+	int _value_int=1234;
+	printf("2. целое число: %d \n", _value_int);
+	float _value_float=12.34;//double - ?
+	printf("3. дробное число: %f \n", _value_float);
+	char _value_char='C';
+	printf("4. Символ: %c  \n", _value_char);
+	char _value_char_array[]="C++";
+	printf("5. строка: %s \n", _value_char_array);
+	printf("6. процент: 100%% \n");
+	return 0;
+}
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>1. просто строка 
+2. целое число: 1234 
+3. дробное число: 12.340000 
+4. Символ: C  
+5. строка: C++ 
+6. процент: 100% 
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14903,38 +15057,30 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#include &lt;stdio.h&gt;</span>
-<span class="c1">#include &lt;locale.h&gt;</span>
-<span class="nb">int</span> <span class="n">main</span><span class="p">(){</span>
-	<span class="n">setlocale</span><span class="p">(</span><span class="n">LC_ALL</span><span class="p">,</span> <span class="s2">"Russian"</span><span class="p">);</span>
-	<span class="nb">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-	<span class="nb">float</span> <span class="n">fres</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-	<span class="n">res</span> <span class="o">=</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">;</span> <span class="n">printf</span><span class="p">(</span><span class="s2">"</span><span class="si">%d</span><span class="s2"> + </span><span class="si">%d</span><span class="s2"> = </span><span class="si">%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">res</span><span class="p">);</span>
-	<span class="n">res</span> <span class="o">=</span> <span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">;</span> <span class="n">printf</span><span class="p">(</span><span class="s2">"</span><span class="si">%d</span><span class="s2"> - </span><span class="si">%d</span><span class="s2"> = </span><span class="si">%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">res</span><span class="p">);</span>
-	<span class="n">res</span> <span class="o">=</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="p">;</span> <span class="n">printf</span><span class="p">(</span><span class="s2">"</span><span class="si">%d</span><span class="s2"> * </span><span class="si">%d</span><span class="s2"> = </span><span class="si">%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">res</span><span class="p">);</span>
-	<span class="n">res</span> <span class="o">=</span> <span class="n">a</span><span class="o">%</span><span class="k">b</span>; printf("%d %% %d = %d\n",a,b,res);
-	<span class="n">res</span> <span class="o">=</span> <span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">;</span> <span class="n">printf</span><span class="p">(</span><span class="s2">"</span><span class="si">%d</span><span class="s2"> / </span><span class="si">%d</span><span class="s2"> = </span><span class="si">%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">res</span><span class="p">);</span>
-	<span class="n">fres</span> <span class="o">=</span> <span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">;</span> <span class="n">printf</span><span class="p">(</span><span class="s2">"(float)</span><span class="si">%d</span><span class="s2"> / </span><span class="si">%d</span><span class="s2"> = </span><span class="si">%f</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">fres</span><span class="p">);</span>
-	<span class="n">res</span><span class="o">=</span><span class="n">getchar</span><span class="p">();</span>
-	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="o">/*</span>
-<span class="mi">7</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">9</span>
-<span class="mi">7</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="mi">7</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">14</span>
-<span class="mi">7</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="mi">7</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="mi">7</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span><span class="mi">500000</span>
-<span class="n">что</span> <span class="n">то</span> <span class="n">так</span> <span class="n">про</span> <span class="n">нажатие</span> <span class="n">клавиши</span><span class="o">....</span>
-<span class="o">*/</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">cDebag_Lang_Cpp</span>
+#include &lt;stdio.h&gt;
+#include &lt;locale.h&gt;
+int main(){
+	setlocale(LC_ALL, "Russian");
+	int a=7, b=2, res = 0;
+	float fres = 0;
+	res = a+b; printf("%d + %d = %d\n",a,b,res);
+	res = a-b; printf("%d - %d = %d\n",a,b,res);
+	res = a*b; printf("%d * %d = %d\n",a,b,res);
+	res = a%b; printf("%d %% %d = %d\n",a,b,res);
+	res = a/b; printf("%d / %d = %d\n",a,b,res);
+	fres = (float)a/b; printf("(float)%d / %d = %f\n",a,b,fres);
+	//res=getchar();
+	return 0;
+}
 </pre></div>
 
      </div>
@@ -14942,42 +15088,89 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>7 + 2 = 9
+7 - 2 = 5
+7 * 2 = 14
+7 % 2 = 1
+7 / 2 = 3
+(float)7 / 2 = 3,500000
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">//</span><span class="n">Приведение</span> <span class="n">типов</span>
-<span class="c1">#include &lt;stdio.h&gt;</span>
-<span class="c1">#include &lt;locale.h&gt;</span>
-<span class="nb">int</span> <span class="n">main</span><span class="p">(){</span>
-	<span class="n">setlocale</span><span class="p">(</span><span class="n">LC_ALL</span><span class="p">,</span> <span class="s2">"Russian"</span><span class="p">);</span>
-	<span class="nb">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">b</span><span class="p">;</span><span class="nb">float</span> <span class="n">g</span><span class="o">=</span> <span class="mf">9.81</span><span class="p">,</span><span class="n">v</span><span class="p">;</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"a=</span><span class="si">%d</span><span class="s2">; b=</span><span class="si">%d</span><span class="s2">;</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">);</span><span class="n">printf</span><span class="p">(</span><span class="s2">"g=</span><span class="si">%f</span><span class="s2">; v=</span><span class="si">%f</span><span class="s2">;</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">v</span><span class="p">);</span>
-	<span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">)</span><span class="n">g</span><span class="p">;</span> <span class="o">//</span><span class="n">приводим</span> <span class="n">значение</span> <span class="mf">9.81</span> <span class="n">к</span> <span class="n">типу</span> <span class="nb">int</span><span class="p">,</span> <span class="n">получим</span> <span class="mi">9</span>
-	<span class="n">v</span><span class="o">=</span> <span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="n">a</span><span class="p">;</span> <span class="o">//</span> <span class="n">приводим</span> <span class="n">значение</span> <span class="mi">7</span> <span class="n">к</span> <span class="n">типу</span> <span class="nb">float</span><span class="p">,</span> <span class="n">получим</span> <span class="mf">7.0</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"После обертывания типа...</span><span class="se">\n</span><span class="s2">"</span><span class="p">);</span>
-	<span class="n">printf</span><span class="p">(</span><span class="s2">"a=</span><span class="si">%d</span><span class="s2">; b=</span><span class="si">%d</span><span class="s2">;</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">);</span><span class="n">printf</span><span class="p">(</span><span class="s2">"g=</span><span class="si">%f</span><span class="s2">; v=</span><span class="si">%f</span><span class="s2">;</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">v</span><span class="p">);</span>
-	<span class="nb">int</span> <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-	<span class="n">res</span><span class="o">=</span><span class="n">getchar</span><span class="p">();</span>
-	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="o">/*</span>
-<span class="n">a</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span> <span class="n">b</span><span class="o">=</span><span class="mi">4199400</span><span class="p">;</span>
-<span class="n">g</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span><span class="mi">810000</span><span class="p">;</span> <span class="n">v</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="mi">000000</span><span class="p">;</span>
-<span class="n">После</span> <span class="n">обертывания</span> <span class="n">типа</span><span class="o">...</span>
-<span class="n">a</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span> <span class="n">b</span><span class="o">=</span><span class="mi">9</span><span class="p">;</span>
-<span class="n">g</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span><span class="mi">810000</span><span class="p">;</span> <span class="n">v</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span><span class="mi">000000</span><span class="p">;</span>
-<span class="n">Что</span> <span class="n">то</span> <span class="n">такм</span> <span class="n">про</span> <span class="n">нажатие</span> <span class="n">клавиши</span><span class="o">....</span>
-<span class="o">*/</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">cDebag_Lang_Cpp</span>
+//Приведение типов
+#include &lt;stdio.h&gt;
+#include &lt;locale.h&gt;
+int main(){
+	setlocale(LC_ALL, "Russian");
+	int a=7, b;float g= 9.81,v;
+	printf("a=%d; b=%d;\n",a,b);printf("g=%f; v=%f;\n",g,v);
+	b = (int)g; //приводим значение 9.81 к типу int, получим 9
+	v= (float)a; // приводим значение 7 к типу float, получим 7.0
+	printf("После обертывания типа...\n");
+	printf("a=%d; b=%d;\n",a,b);printf("g=%f; v=%f;\n",g,v);
+	//int res = 0;res=getchar();
+	return 0;
+}
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>a=7; b=4199388;
+g=9,810000; v=0,000000;
+После обертывания типа...
+a=7; b=9;
+g=9,810000; v=7,000000;
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15112,19 +15305,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C%D1%8E">&#1056;&#1072;&#1073;&#1086;&#1090;&#1072; &#1089; &#1087;&#1072;&#1084;&#1103;&#1090;&#1100;&#1102;<a class="anchor-link" href="#%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C%D1%8E">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><a href="https://github.com/IvanSibirevV2/HowTo_CPP">https://github.com/IvanSibirevV2/HowTo_CPP</a></p>
-<p><a href="https://htmlpreview.github.io/?https://github.com/IvanSibirevV2/HowTo_CPP/blob/main/Тверь_2017/001_НизкийСтарт.html#/source">https://htmlpreview.github.io/?https://github.com/IvanSibirevV2/HowTo_CPP/blob/main/Тверь_2017/001_НизкийСтарт.html#/source</a></p>
-
 </div>
 </div>
 </div>
