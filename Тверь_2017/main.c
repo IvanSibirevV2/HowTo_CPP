@@ -1,10 +1,11 @@
 #include <stdio.h>
-//Шаблонизация макросом
-#define SUM(x,y) (a##x + a##y)
-int main()
+int main(int argc, char *argv[])
 {
-  int a1 = 5, a2 = 3;
-  printf("%d", SUM(1, 2)); // (a1 + a2)
-  getchar();
-  return 0;
+	printf("Hello C-Free!\n");
+	int age=0;
+	scanf("%d\n", &age);
+	printf("age = %d\n", age);
+	int res = 0;res=getchar();
+    printf("res = <%c>\n", res);
+	return 0;
 }
