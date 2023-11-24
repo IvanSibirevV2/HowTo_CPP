@@ -1,11 +1,17 @@
 #include <stdio.h>
-int main(int argc, char *argv[])
+#include <stdlib.h>
+#define P 2
+int main()
 {
-	printf("Hello C-Free!\n");
-	int age=0;
-	scanf("%d\n", &age);
-	printf("age = %d\n", age);
-	int res = 0;res=getchar();
-    printf("res = <%c>\n", res);
-	return 0;
+  system("chcp 1251");
+  system("cls");
+#if P==1
+  printf("Выполняется ветка 1");
+#elif P==2
+  printf("Выполняется ветка 2, P=%d", P);
+#else
+  printf("Выполняется другая ветка, P=%d", P);
+#endif
+  getchar();
+  return 0;
 }
